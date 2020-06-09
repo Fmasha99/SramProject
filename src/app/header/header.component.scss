@@ -1,0 +1,39 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 7px;
+  background-color: black;
+  font-size: 15px;
+
+  p {
+    text-transform: uppercase;
+    color: white;
+    font-family: TradeMarker;
+    font-size: 1.2rem;
+  } //p
+
+  span {
+    text-transform: uppercase;
+    color: white;
+
+    em {
+      text-transform: none;
+    }
+  } //span
+
+  ul {
+    list-style: none;
+    display: flex;
+
+    li {
+      text-transform: uppercase;
+      color: white;
+      padding: 0 15px;
+
+      img {
+        height: 15px;
+      }
+    } //li
+
+  } //ul
+} //section
