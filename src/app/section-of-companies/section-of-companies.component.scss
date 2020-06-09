@@ -16,22 +16,28 @@ section {
       padding: 10px 20px;
       text-align: center;
       align-items: center;
-
+      vertical-align: middle;
 
       a {
         text-decoration: none;
         color: white;
         display: flex;
         text-align: center;
+        vertical-align: middle;
+        padding-top: 20px;
+        padding-bottom: 20px;
 
         span {
           text-transform: uppercase;
           text-align: center;
+          vertical-align: middle;
+          line-height: 0;
         }
 
         p {
           text-transform: uppercase;
           font-family: Baloo;
+          line-height: 0;
         }
       }
 
@@ -64,11 +70,11 @@ section {
       }
     }
 
-  }
+  } //ul
 
   img {
     height: 20px;
     padding-right: 15px;
 
   }
-}
+} //section

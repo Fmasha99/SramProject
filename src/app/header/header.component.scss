@@ -15,6 +15,7 @@ section {
   span {
     text-transform: uppercase;
     color: white;
+    font-family: RopaSans;
 
     em {
       text-transform: none;
@@ -24,16 +25,23 @@ section {
   ul {
     list-style: none;
     display: flex;
+    font-family: RopaSans;
+    text-align: center;
 
     li {
       text-transform: uppercase;
       color: white;
       padding: 0 15px;
+      text-align: center;
 
       img {
         height: 15px;
       }
     } //li
+
+    li:nth-child(-n+2) {
+      border-right: 1px solid white;
+    }
 
   } //ul
 } //section
