@@ -1,4 +1,4 @@
-html,body, div, p, span, ul, li, a{
+html,body, div, p, span, ul, li, a, title{
   margin: 0;
   padding: 0;
 }
@@ -26,4 +26,9 @@ html,body, div, p, span, ul, li, a{
 @font-face {
   font-family: 'Baloo';
   src: url(./assets/fonts/Baloo_Thambi_2/BalooThambi2-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'RopaSans';
+  src: url(./assets/fonts/Ropa_Sans/RopaSans-Regular.ttf);
 }
