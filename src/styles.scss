@@ -1,4 +1,4 @@
-html,body, div, p, span, ul, li{
+html,body, div, p, span, ul, li, a{
   margin: 0;
   padding: 0;
 }
@@ -8,3 +8,22 @@ html,body, div, p, span, ul, li{
   src: url(./assets/fonts/trademarker/TradeMarker-BoldItalic.otf);
 }
 
+@font-face {
+  font-family: 'BietaHeavy';
+  src: url(./assets/fonts/BietaHeavy/BietaHeavy/BietaHeavy.ttf);
+}
+
+@font-face {
+  font-family: 'SofaChrome';
+  src: url(./assets/fonts/sofachrome/sofachromergit.ttf);
+}
+
+@font-face {
+  font-family: 'ethnocentric';
+  src: url(./assets/fonts/ethnocentric/ethnocentricrg.ttf);
+}
+
+@font-face {
+  font-family: 'Baloo';
+  src: url(./assets/fonts/Baloo_Thambi_2/BalooThambi2-Regular.ttf);
+}
