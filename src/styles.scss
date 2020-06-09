@@ -3,6 +3,14 @@ html,body, div, p, span, ul, li, a, title{
   padding: 0;
 }
 
+html {
+  height: 100vh;;
+}
+
+body {
+  height: 100vh;
+}
+
 @font-face {
   font-family: 'TradeMarker';
   src: url(./assets/fonts/trademarker/TradeMarker-BoldItalic.otf);
